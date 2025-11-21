@@ -1,0 +1,75 @@
+# 📊 Customer Pick-Up Analytics (CPU) – Power BI Project
+
+This repository showcases a **Customer Pick-Up (CPU) analytics solution** built using **Power BI, SQL, and Excel/Power Query**.  
+The goal of this project is to monitor and improve **CPU compliance, response time, and pending orders** across warehouses, helping operations teams make **data-driven decisions**.
+
+---
+
+## 🎯 Project Overview
+
+The CPU dashboard focuses on:
+
+- **CPU Compliance %** – How many CPU orders meet the check-in/response SLA.
+- **Customer Response Time** – Time between customer check-in and first response.
+- **Pending CPU Orders** – Orders that are ready/past due but not yet completed.
+- **Warehouse-Level Performance** – Comparing CPU metrics across different branches.
+- **Daily Trends** – Tracking performance over time for continuous improvement.
+
+This project reflects how I work with **data, stakeholders, and operations teams** to design useful dashboards.
+
+---
+
+## 🧩 Tech Stack
+
+- **Power BI** – Data modeling, DAX measures, dashboard design.
+- **SQL** – Data extraction, filtering, and summarization from source systems.
+- **Power Query (M)** – Data cleaning and transformation.
+- **Excel** – Quick analysis, validation, and mockups.
+
+---
+
+## 📁 Repository Structure
+
+```text
+/data                  → Sample/dummy CPU dataset
+/dax-measures          → Key DAX measures used in the dashboard
+/sql-scripts           → SQL queries for CPU-related extracts
+/power-query           → Power Query (M) scripts
+/reports               → Notes/layouts for the dashboard
+/documentation         → KPI definitions and stakeholder workflow
+
+
+
+
+
+# Stakeholder Workflow – CPU Dashboard
+
+1. **Requirement Gathering**
+   - Met with **Operations, Warehouse Leads, and Managers** to understand:
+     - What CPU metrics are important.
+     - Which delays cause the most impact.
+     - What they want to see daily vs weekly.
+
+2. **Data Understanding**
+   - Coordinated with **IT / BI team** to:
+     - Identify source tables (CPU orders, check-in logs, response logs).
+     - Confirm field definitions (status, timestamps, warehouse, carrier, etc.).
+     - Align on refresh frequency.
+
+3. **Prototype & Feedback**
+   - Built an initial **Power BI mockup** with:
+     - CPU compliance trend.
+     - Response time distribution.
+     - Pending orders summary.
+   - Collected feedback from stakeholders and refined visuals/KPIs.
+
+4. **Finalization & Handover**
+   - Documented KPIs, data model, and logic.
+   - Walked stakeholders through the dashboard.
+   - Provided guidance on filters, slicers, and daily usage.
+
+5. **Continuous Improvement**
+   - Ongoing feedback loop to:
+     - Add new views (e.g., product line, carrier).
+     - Refine thresholds and highlight rules.
+
